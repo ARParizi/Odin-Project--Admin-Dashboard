@@ -9,23 +9,23 @@ body {
     background: #ddd;
 }
 
-.main {
+.main-grid {
     display: grid;
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 3fr;
     height: 100vh;
 }
 
-.header {
-    background-color: yellowgreen;
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.sidebar {
+.sidebar-grid {
     background-color: olivedrab;
     grid-area: 1 / 1 / 3 / 2;
 }
 
-.content {
+.header-grid {
+    background-color: yellowgreen;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.content-grid {
     background-color: lightgreen;
 }
